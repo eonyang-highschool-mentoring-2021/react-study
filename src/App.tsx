@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import CalcRoot from './components/CalcRoot';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       alignItems: 'center',
       border: '5px solid black'
     }}>
-
+      <CalcRoot/>
     </div>
   );
 }
